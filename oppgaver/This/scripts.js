@@ -33,8 +33,8 @@ document.body.innerHTML = `
         <button id="z" onclick="insertLetter('z')">z</button>
     </div>
     <div>
-        <textarea id="textfield"></textarea>
+        <textarea id="textField"></textarea>
     </div>
     <script src="scripts.js"></scripts>
     
-    `
+    `;
