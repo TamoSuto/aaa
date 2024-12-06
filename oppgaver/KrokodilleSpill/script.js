@@ -1,4 +1,7 @@
-var randomNumber1, randomNumber2, userInput, result;
+var randomNumber1 = document.getElementById('randomNumber')
+var randomNumber2 = document.getElementById('randomNumber2')
+var userInput = document.getElementById('userInput')
+var result = document.getElementById('result')
 
 function getRandomNumber() {
    return Math.floor(Math.random() * 10) + 1;
